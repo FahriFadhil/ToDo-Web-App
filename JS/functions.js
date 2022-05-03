@@ -1,7 +1,7 @@
 function makeTodo() {
     return stringToHTML(
         `<div class="todo" draggable="true">
-            <input class="todo-title">
+            <input class="todo-title" type="text" maxlength="30">
             <i class="material-icons menu-todo">menu</i>
             <div class="menu">
                 <div class="menu-edit">
